@@ -1,0 +1,3 @@
+C:/Users/hewit/CLionProjects/notrat/cmake-build-debug-mingw/CMakeFiles/notrat.dir
+C:/Users/hewit/CLionProjects/notrat/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
+C:/Users/hewit/CLionProjects/notrat/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir
