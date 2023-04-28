@@ -15,6 +15,7 @@
 int sock;
 
 /*
+ * https://youtu.be/2-xNui9H-Ro?t=3484
  * PLAN
  * 1) create connection with our server inside main function
  * 2) create shell function (wait for incoming command and iterate over certain options)
