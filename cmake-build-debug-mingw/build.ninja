@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/hewit/CLionProjects/notrat/cmake-build-debug-min
 
 build cmake_object_order_depends_target_notrat: phony || CMakeFiles/notrat.dir
 
-build CMakeFiles/notrat.dir/main.c.obj: C_COMPILER__notrat_Debug C$:/Users/hewit/CLionProjects/notrat/main.c || cmake_object_order_depends_target_notrat
-  DEP_FILE = CMakeFiles\notrat.dir\main.c.obj.d
+build CMakeFiles/notrat.dir/backdoor.c.obj: C_COMPILER__notrat_Debug C$:/Users/hewit/CLionProjects/notrat/backdoor.c || cmake_object_order_depends_target_notrat
+  DEP_FILE = CMakeFiles\notrat.dir\backdoor.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu99
   OBJECT_DIR = CMakeFiles\notrat.dir
   OBJECT_FILE_DIR = CMakeFiles\notrat.dir
@@ -63,7 +63,7 @@ build CMakeFiles/notrat.dir/main.c.obj: C_COMPILER__notrat_Debug C$:/Users/hewit
 #############################################
 # Link the executable notrat.exe
 
-build notrat.exe: C_EXECUTABLE_LINKER__notrat_Debug CMakeFiles/notrat.dir/main.c.obj
+build notrat.exe: C_EXECUTABLE_LINKER__notrat_Debug CMakeFiles/notrat.dir/backdoor.c.obj
   FLAGS = -g
   LINK_FLAGS = -static-libgcc -static-libstdc++
   LINK_LIBRARIES = -lwsock32  -lws2_32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
