@@ -128,53 +128,29 @@ notrat/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\notrat.dir\build.make CMakeFiles/notrat.dir/build
 .PHONY : notrat/fast
 
-main.obj: main.c.obj
-.PHONY : main.obj
+backdoor.obj: backdoor.c.obj
+.PHONY : backdoor.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\notrat.dir\build.make CMakeFiles/notrat.dir/main.c.obj
-.PHONY : main.c.obj
+backdoor.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\notrat.dir\build.make CMakeFiles/notrat.dir/backdoor.c.obj
+.PHONY : backdoor.c.obj
 
-main.i: main.c.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\notrat.dir\build.make CMakeFiles/notrat.dir/main.c.i
-.PHONY : main.c.i
-
-main.s: main.c.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\notrat.dir\build.make CMakeFiles/notrat.dir/main.c.s
-.PHONY : main.c.s
-
-server.obj: server.c.obj
-.PHONY : server.obj
-
-# target to build an object file
-server.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\notrat.dir\build.make CMakeFiles/notrat.dir/server.c.obj
-.PHONY : server.c.obj
-
-server.i: server.c.i
-.PHONY : server.i
+backdoor.i: backdoor.c.i
+.PHONY : backdoor.i
 
 # target to preprocess a source file
-server.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\notrat.dir\build.make CMakeFiles/notrat.dir/server.c.i
-.PHONY : server.c.i
+backdoor.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\notrat.dir\build.make CMakeFiles/notrat.dir/backdoor.c.i
+.PHONY : backdoor.c.i
 
-server.s: server.c.s
-.PHONY : server.s
+backdoor.s: backdoor.c.s
+.PHONY : backdoor.s
 
 # target to generate assembly for a file
-server.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\notrat.dir\build.make CMakeFiles/notrat.dir/server.c.s
-.PHONY : server.c.s
+backdoor.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\notrat.dir\build.make CMakeFiles/notrat.dir/backdoor.c.s
+.PHONY : backdoor.c.s
 
 # Help Target
 help:
@@ -185,12 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... notrat
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
-	@echo ... server.obj
-	@echo ... server.i
-	@echo ... server.s
+	@echo ... backdoor.obj
+	@echo ... backdoor.i
+	@echo ... backdoor.s
 .PHONY : help
 
 

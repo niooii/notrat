@@ -68,49 +68,33 @@ include CMakeFiles/notrat.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/notrat.dir/flags.make
 
-CMakeFiles/notrat.dir/main.c.obj: CMakeFiles/notrat.dir/flags.make
-CMakeFiles/notrat.dir/main.c.obj: C:/Users/beyon/git/CLion/notrat/main.c
-CMakeFiles/notrat.dir/main.c.obj: CMakeFiles/notrat.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\beyon\git\CLion\notrat\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/notrat.dir/main.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/notrat.dir/main.c.obj -MF CMakeFiles\notrat.dir\main.c.obj.d -o CMakeFiles\notrat.dir\main.c.obj -c C:\Users\beyon\git\CLion\notrat\main.c
+CMakeFiles/notrat.dir/backdoor.c.obj: CMakeFiles/notrat.dir/flags.make
+CMakeFiles/notrat.dir/backdoor.c.obj: C:/Users/beyon/git/CLion/notrat/backdoor.c
+CMakeFiles/notrat.dir/backdoor.c.obj: CMakeFiles/notrat.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\beyon\git\CLion\notrat\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/notrat.dir/backdoor.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/notrat.dir/backdoor.c.obj -MF CMakeFiles\notrat.dir\backdoor.c.obj.d -o CMakeFiles\notrat.dir\backdoor.c.obj -c C:\Users\beyon\git\CLion\notrat\backdoor.c
 
-CMakeFiles/notrat.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/notrat.dir/main.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\beyon\git\CLion\notrat\main.c > CMakeFiles\notrat.dir\main.c.i
+CMakeFiles/notrat.dir/backdoor.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/notrat.dir/backdoor.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\beyon\git\CLion\notrat\backdoor.c > CMakeFiles\notrat.dir\backdoor.c.i
 
-CMakeFiles/notrat.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/notrat.dir/main.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\beyon\git\CLion\notrat\main.c -o CMakeFiles\notrat.dir\main.c.s
-
-CMakeFiles/notrat.dir/server.c.obj: CMakeFiles/notrat.dir/flags.make
-CMakeFiles/notrat.dir/server.c.obj: C:/Users/beyon/git/CLion/notrat/server.c
-CMakeFiles/notrat.dir/server.c.obj: CMakeFiles/notrat.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\beyon\git\CLion\notrat\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/notrat.dir/server.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/notrat.dir/server.c.obj -MF CMakeFiles\notrat.dir\server.c.obj.d -o CMakeFiles\notrat.dir\server.c.obj -c C:\Users\beyon\git\CLion\notrat\server.c
-
-CMakeFiles/notrat.dir/server.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/notrat.dir/server.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\beyon\git\CLion\notrat\server.c > CMakeFiles\notrat.dir\server.c.i
-
-CMakeFiles/notrat.dir/server.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/notrat.dir/server.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\beyon\git\CLion\notrat\server.c -o CMakeFiles\notrat.dir\server.c.s
+CMakeFiles/notrat.dir/backdoor.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/notrat.dir/backdoor.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\beyon\git\CLion\notrat\backdoor.c -o CMakeFiles\notrat.dir\backdoor.c.s
 
 # Object files for target notrat
 notrat_OBJECTS = \
-"CMakeFiles/notrat.dir/main.c.obj" \
-"CMakeFiles/notrat.dir/server.c.obj"
+"CMakeFiles/notrat.dir/backdoor.c.obj"
 
 # External object files for target notrat
 notrat_EXTERNAL_OBJECTS =
 
-notrat.exe: CMakeFiles/notrat.dir/main.c.obj
-notrat.exe: CMakeFiles/notrat.dir/server.c.obj
+notrat.exe: CMakeFiles/notrat.dir/backdoor.c.obj
 notrat.exe: CMakeFiles/notrat.dir/build.make
 notrat.exe: CMakeFiles/notrat.dir/linkLibs.rsp
 notrat.exe: CMakeFiles/notrat.dir/objects1
 notrat.exe: CMakeFiles/notrat.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\beyon\git\CLion\notrat\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable notrat.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\beyon\git\CLion\notrat\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable notrat.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\notrat.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
